@@ -14,8 +14,8 @@ import * as Yup from 'yup';
 
 // Default brand names that I used. You can use what you want
 const brandOptions = [
+  { value: 'Noname', label: 'Noname' },
   { value: 'Adidas', label: 'Adidas' },
-  { value: 'Apple', label: 'Apple' },
   { value: 'Xiaomi', label: 'Xiaomi' },
   { value: 'Lacoste', label: 'Lacoste' }
 ];
