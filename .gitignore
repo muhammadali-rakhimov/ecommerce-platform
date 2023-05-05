@@ -1,6 +1,5 @@
 node_modules/
 functions/node_modules/
-.env
 .env.prod
 .env.dev
 dist/
