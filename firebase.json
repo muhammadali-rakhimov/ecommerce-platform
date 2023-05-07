@@ -4,6 +4,7 @@
   },
   "hosting": {
     "public": "dist",
+    "site": "ecommerce-platform-761bf",
     "ignore": [
       "firebase.json",
       "**/.*",

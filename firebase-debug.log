@@ -1,0 +1,164 @@
+[debug] [2023-05-06T02:35:27.675Z] ----------------------------------------------------------------------
+[debug] [2023-05-06T02:35:27.676Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-06T02:35:27.677Z] CLI Version:   11.30.0
+[debug] [2023-05-06T02:35:27.677Z] Platform:      win32
+[debug] [2023-05-06T02:35:27.677Z] Node Version:  v16.14.2
+[debug] [2023-05-06T02:35:27.678Z] Time:          Sat May 06 2023 07:35:27 GMT+0500 (Uzbekistan Standard Time)
+[debug] [2023-05-06T02:35:27.678Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-06T02:35:27.728Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2023-05-06T02:35:27.731Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-06T02:35:27.732Z] > authorizing via signed-in user (muhammadali.rakhimov786@gmail.com)
+[debug] [2023-05-06T02:35:27.732Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Muhammad_Rakhimov\Documents\Tuit\4-kurs\fqw\ecommerce-platform
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-06T02:35:52.138Z] Using project from CLI flag: ecommerce
+[debug] [2023-05-06T02:35:52.139Z] > refreshing access token with scopes: []
+[debug] [2023-05-06T02:35:52.140Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-06T02:35:52.140Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:35:52.596Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-06T02:35:52.597Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:35:52.597Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce [none]
+[debug] [2023-05-06T02:35:53.041Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce 401
+[debug] [2023-05-06T02:35:53.041Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-06T02:35:53.042Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-06T02:35:53.604Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project ecommerce. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-05-06T02:39:52.683Z] ----------------------------------------------------------------------
+[debug] [2023-05-06T02:39:52.684Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:Ecommerce-platform
+[debug] [2023-05-06T02:39:52.684Z] CLI Version:   11.30.0
+[debug] [2023-05-06T02:39:52.684Z] Platform:      win32
+[debug] [2023-05-06T02:39:52.684Z] Node Version:  v16.14.2
+[debug] [2023-05-06T02:39:52.685Z] Time:          Sat May 06 2023 07:39:52 GMT+0500 (Uzbekistan Standard Time)
+[debug] [2023-05-06T02:39:52.686Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-06T02:39:52.733Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2023-05-06T02:39:52.737Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-06T02:39:52.737Z] > authorizing via signed-in user (muhammadali.rakhimov786@gmail.com)
+[debug] [2023-05-06T02:39:52.737Z] [iam] checking project ecommerce for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-06T02:39:52.738Z] > refreshing access token with scopes: []
+[debug] [2023-05-06T02:39:52.740Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-06T02:39:52.740Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:39:53.332Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-06T02:39:53.332Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:39:53.332Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions [none]
+[debug] [2023-05-06T02:39:53.332Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions x-goog-quota-user=projects/ecommerce
+[debug] [2023-05-06T02:39:53.333Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-06T02:39:54.622Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions 401
+[debug] [2023-05-06T02:39:54.622Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions","service":"cloudresourcemanager.googleapis.com"}}]}}
+[debug] [2023-05-06T02:39:54.623Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-06T02:39:54.624Z] > refreshing access token with scopes: []
+[debug] [2023-05-06T02:39:54.625Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-06T02:39:54.625Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:39:55.035Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-06T02:39:55.035Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:39:55.036Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce [none]
+[debug] [2023-05-06T02:39:55.497Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce 401
+[debug] [2023-05-06T02:39:55.497Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-06T02:39:55.498Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-06T02:39:55.872Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project ecommerce. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-05-06T02:40:17.083Z] ----------------------------------------------------------------------
+[debug] [2023-05-06T02:40:17.085Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:ecommerce-platform-761bf
+[debug] [2023-05-06T02:40:17.085Z] CLI Version:   11.30.0
+[debug] [2023-05-06T02:40:17.086Z] Platform:      win32
+[debug] [2023-05-06T02:40:17.086Z] Node Version:  v16.14.2
+[debug] [2023-05-06T02:40:17.087Z] Time:          Sat May 06 2023 07:40:17 GMT+0500 (Uzbekistan Standard Time)
+[debug] [2023-05-06T02:40:17.087Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-06T02:40:17.146Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2023-05-06T02:40:17.150Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-06T02:40:17.151Z] > authorizing via signed-in user (muhammadali.rakhimov786@gmail.com)
+[debug] [2023-05-06T02:40:17.151Z] [iam] checking project ecommerce for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-06T02:40:17.152Z] > refreshing access token with scopes: []
+[debug] [2023-05-06T02:40:17.153Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-06T02:40:17.153Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:40:17.607Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-06T02:40:17.607Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:40:17.608Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions [none]
+[debug] [2023-05-06T02:40:17.608Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions x-goog-quota-user=projects/ecommerce
+[debug] [2023-05-06T02:40:17.608Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-06T02:40:18.706Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions 401
+[debug] [2023-05-06T02:40:18.706Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions","service":"cloudresourcemanager.googleapis.com"}}]}}
+[debug] [2023-05-06T02:40:18.706Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-06T02:40:18.707Z] > refreshing access token with scopes: []
+[debug] [2023-05-06T02:40:18.707Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-06T02:40:18.707Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:40:19.144Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-06T02:40:19.145Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:40:19.145Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce [none]
+[debug] [2023-05-06T02:40:19.555Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce 401
+[debug] [2023-05-06T02:40:19.555Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-06T02:40:19.555Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-06T02:40:19.913Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project ecommerce. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-05-06T02:40:22.970Z] ----------------------------------------------------------------------
+[debug] [2023-05-06T02:40:22.972Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:ecommerce-platform-761bf
+[debug] [2023-05-06T02:40:22.972Z] CLI Version:   11.30.0
+[debug] [2023-05-06T02:40:22.972Z] Platform:      win32
+[debug] [2023-05-06T02:40:22.972Z] Node Version:  v16.14.2
+[debug] [2023-05-06T02:40:22.973Z] Time:          Sat May 06 2023 07:40:22 GMT+0500 (Uzbekistan Standard Time)
+[debug] [2023-05-06T02:40:22.973Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-06T02:40:23.021Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2023-05-06T02:40:23.025Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-06T02:40:23.026Z] > authorizing via signed-in user (muhammadali.rakhimov786@gmail.com)
+[debug] [2023-05-06T02:40:23.026Z] [iam] checking project ecommerce for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-06T02:40:23.027Z] > refreshing access token with scopes: []
+[debug] [2023-05-06T02:40:23.028Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-06T02:40:23.029Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:40:23.495Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-06T02:40:23.495Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:40:23.495Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions [none]
+[debug] [2023-05-06T02:40:23.496Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions x-goog-quota-user=projects/ecommerce
+[debug] [2023-05-06T02:40:23.496Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-06T02:40:24.699Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions 401
+[debug] [2023-05-06T02:40:24.699Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"service":"cloudresourcemanager.googleapis.com","method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions"}}]}}
+[debug] [2023-05-06T02:40:24.699Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-06T02:40:24.699Z] > refreshing access token with scopes: []
+[debug] [2023-05-06T02:40:24.699Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-06T02:40:24.700Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:40:25.043Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-05-06T02:40:25.043Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-06T02:40:25.043Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce [none]
+[debug] [2023-05-06T02:40:25.459Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce 401
+[debug] [2023-05-06T02:40:25.460Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-06T02:40:25.460Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-06T02:40:25.987Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Muhammad_Rakhimov\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project ecommerce. Please make sure the project exists and your account has permission to access it.
