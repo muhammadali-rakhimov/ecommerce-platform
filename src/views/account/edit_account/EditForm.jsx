@@ -26,7 +26,7 @@ const EditForm = ({ isLoading, authProvider }) => {
         name="email"
         type="email"
         label="* Email Address"
-        placeholder="test@example.com"
+        placeholder="test@ecommerceplatform.uz"
         component={CustomInput}
       />
       <Field

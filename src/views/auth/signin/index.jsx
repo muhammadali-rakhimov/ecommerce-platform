@@ -85,7 +85,7 @@ const SignIn = ({ history }) => {
                           name="email"
                           type="email"
                           label="Email"
-                          placeholder="test@example.com"
+                          placeholder="test@ecommerceplatform.uz"
                           component={CustomInput}
                         />
                       </div>
