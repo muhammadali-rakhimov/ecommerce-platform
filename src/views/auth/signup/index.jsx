@@ -87,7 +87,7 @@ const SignUp = ({ history }) => {
                         name="fullname"
                         type="text"
                         label="* Full Name"
-                        placeholder="John Doe"
+                        placeholder="Name Surname"
                         style={{ textTransform: 'capitalize' }}
                         component={CustomInput}
                       />
